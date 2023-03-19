@@ -1,4 +1,4 @@
-#MPEGTS Parser - Spalk Tech Test
+# MPEGTS Parser - Spalk Tech Test
 This is a webservice for parsing .ts files and returns unique PIDs in hex format
 
 To run the application, you need Python v3.9.6. To download the required modules, run the following command (Make sure you are in the project's root directory):
@@ -24,11 +24,11 @@ Response should be printed in standard output shortly after
 `python client/parser_client.py client/test_success.ts` Should run successfully and exit with code 0
 
 
-###Modifying host and port
+## Modifying host and port
 Server host is 127.0.0.1 and port is 5000. If a different host or port are required, they can be altered in 
 `server/config.py`
 
-###Tests
+## Tests
 To run tests, use the following commands:
 
 `python server/tests/unit_tests.py`
