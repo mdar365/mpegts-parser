@@ -1,4 +1,4 @@
-# MPEGTS Parser - Spalk Tech Test
+# MPEGTS Parser
 This is a webservice for parsing .ts files and returns unique PIDs in hex format
 
 To run the application, you need Python v3.9.6. To download the required modules, run the following command (Make sure you are in the project's root directory):
